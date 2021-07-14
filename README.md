@@ -16,8 +16,10 @@ A [finished example](https://lemurian.herokuapp.com) that demonstrates some basi
 - There is some boilerplate HTML in `templates/`
 - Create Heroku application with `heroku create <app_name>` or leave blank to
   auto-generate a name.
+  -cd git repo directory (i.e. 'cd code/github/flask-framework')
 - Deploy to Heroku: `git push heroku master`
 - You should be able to see your site at `https://<app_name>.herokuapp.com`
+  - can also use 'heroku open --app <app_name>' to auto open browser to app url
 - A useful reference is the Heroku [quickstart guide](https://devcenter.heroku.com/articles/getting-started-with-python).
 
 ## Step 2: Get data from API and put it in pandas
